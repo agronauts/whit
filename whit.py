@@ -4,16 +4,16 @@ import getSummary                           # A home grown truncation tool
 import json                                 # Python's built in JSON library
 import twilio.twiml                         # Handle twilio responses
 from twilio.rest import TwilioRestClient    # Handle twilio requests
-from urllib import urlopen                  # General Python requests
+from urllib.request import urlopen                  # General Python requests
 
 #   Required for Google App Engine's app.yaml
 app = Flask(__name__)
 
--#   CrunchBase API Key - Add yours here
--api_key = ''
--
--#   Bit.ly API Key - Add yours here
--access_token = ''
+#   CrunchBase API Key - Add yours here
+api_key = ''
+
+#   Bit.ly API Key - Add yours here
+access_token = ''
 
 # ------------------------------------------------------
 #    Utility method to get a bitly shortlink from a URL
