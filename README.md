@@ -9,6 +9,15 @@ How it works:
 
 Whit is written in Python for Google App Engine. Set up the whit instance, add your API keys, and text your query to your Twilio number. (Our implementation is running at `917-791-3098` Give it a try!)
 
+Installation:
+---
+```
+git clone https://github.com/agronauts/whit
+sudo apt-get install python3-pip
+pip3 install -r requirement
+python3 whit.py
+```
+
 
 Queries:
 ---
